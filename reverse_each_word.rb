@@ -8,14 +8,14 @@ def reverse_each_word(string)
   each_array.unshift(word)
   end
   sentence = each_array.join(" ")
-  collect_test(new_array)
+  #collect_test(new_array)
   
   
 end
 
-def collect_test(new_array)
-  new_array.collect do |collect_word|
-  collect_array.unshift(collect_word)
-  end
-  collect_sentence2 = collect_array.join(" ")
-end
+#def collect_test(new_array)
+ # new_array.collect do |collect_word|
+ # collect_array.unshift(collect_word)
+  #end
+ # collect_sentence2 = collect_array.join(" ")
+#end
